@@ -19,7 +19,7 @@ struct HomeScreen: View {
     var body: some View {
         VStack(spacing: 20) {
             // Home screen content
-            Text("Home Screen")
+            Text("Ahmed")
                 .font(.largeTitle)
                 .padding()
             
