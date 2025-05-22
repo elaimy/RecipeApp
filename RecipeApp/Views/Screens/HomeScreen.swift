@@ -23,14 +23,6 @@ struct HomeScreen: View {
                 .font(.largeTitle)
                 .padding()
             
-            // Button to navigate to detailed home view
-            Button("View Recipe Details") {
-                diContainer.router.navigateToTab(.home)
-            }
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(10)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.white)
