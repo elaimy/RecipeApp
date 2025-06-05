@@ -59,7 +59,7 @@ struct TabBar: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 20, height: 20)
-                            .foregroundColor(item == selected ? ColorManager.primary : ColorManager.inActiveIcon)
+                            .foregroundColor(item == selected ? ColorManager.primary : ColorManager.inactiveIcon)
                         Spacer().frame(height: 8)
                     }
                 }
