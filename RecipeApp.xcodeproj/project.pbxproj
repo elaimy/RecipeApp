@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		41F2D9A12DD705350012EA88 /* RecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = RecipeApp.app; path = "/Users/ahmedel-elaimy/Desktop/Learning Projects/RecipeApp/build/Debug-iphoneos/RecipeApp.app"; sourceTree = "<absolute>"; };
+		41DD46AA2DE9D1EC00C5E23C /* RecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				41F2D9BA2DD7054F0012EA88 /* RecipeApp */,
+				41DD46AA2DE9D1EC00C5E23C /* RecipeApp.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +59,7 @@
 			packageProductDependencies = (
 			);
 			productName = RecipeApp;
-			productReference = 41F2D9A12DD705350012EA88 /* RecipeApp.app */;
+			productReference = 41DD46AA2DE9D1EC00C5E23C /* RecipeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
