@@ -26,8 +26,8 @@ struct ColorManager {
     /// TextSecondary color
     static let textSecondary = Color("TextSecondary")
     
-    /// InActiveIcon
-    static let inActiveIcon = Color("InActiveIcon")
+    /// Icon color used when a tab is inactive
+    static let inactiveIcon = Color("InActiveIcon")
         
     
     // MARK: - Dynamic Colors
