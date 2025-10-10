@@ -14,11 +14,9 @@ struct MainTabView: View {
                     case .home:
                         HomeScreen(showTabBar: $showTabBar)
                     case .categories:
-                        Text("Categories Screen")
-                            .font(.largeTitle)
+                        CategoriesScreen(showTabBar: $showTabBar)
                     case .favorites:
-                        Text("Favorites Screen")
-                            .font(.largeTitle)
+                        FavoritesScreen(showTabBar: $showTabBar)
                     case .profile:
                         Text("Profile Screen")
                             .font(.largeTitle)
@@ -46,13 +44,6 @@ struct MainTabView: View {
                 case .profile:
                     Text("Detailed Profile View")
                         .font(.largeTitle)
-                }
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button("Back to Welcome") {
-                        diContainer.router.navigateToWelcome()
-                    }
                 }
             }
         }

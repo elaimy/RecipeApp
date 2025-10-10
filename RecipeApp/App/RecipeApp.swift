@@ -15,6 +15,7 @@ struct RecipeApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(diContainer)
+                .environmentObject(diContainer.favoritesStore)
         }
     }
 }
